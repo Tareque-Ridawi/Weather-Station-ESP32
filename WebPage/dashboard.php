@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("fdb1032.awardspace.net", "4494781_weather", "VE11938JX", "4494781_weather");
+$mysqli = new mysqli("fdb17494.awardepace.net", "449e321_weather", "password", "4et4781_weather");
 
 // Get controls
 $controls = $mysqli->query("SELECT * FROM controls WHERE id=1")->fetch_assoc();
